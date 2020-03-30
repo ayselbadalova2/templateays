@@ -1,0 +1,264 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+.main-nav {
+  width: 60%;
+  height: 100px;
+  background-color: white;
+  margin-left: 50em;
+  margin-top: 20px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+}
+
+.main-nav ul li {
+  float: right;
+  width: 280px;
+  height: 70px;
+  font-size: 60px;
+  line-height: 60px;
+  z-index: 1;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.main-nav li a:hover {
+  background-color: #dbd1d1;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+ul li ul li {
+  display: none;
+  background-color: white;
+  position: relative;
+  width: 270px;
+  height: 170px;
+  font-size: 10px;
+  line-height: 880px;
+}
+
+ul li:hover ul li {
+  display: block;
+  -webkit-box-shadow: 0 2px 6px 0;
+          box-shadow: 0 2px 6px 0;
+  height: 90px;
+  font-size: 30px;
+  -webkit-animation: 1s all ease;
+          animation: 1s all ease;
+}
+
+@-webkit-keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 19%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  margin-left: 130px;
+  text-align: left;
+  font-size: 0;
+  -webkit-animation: 30s slidy infinite;
+          animation: 30s slidy infinite;
+}
+
+.column {
+  margin-top: 4em;
+  float: left;
+  margin-left: 40px;
+  width: 30%;
+  padding: 10px;
+  -webkit-box-shadow: 4px 9px 7px 9px #aaa5a5;
+          box-shadow: 4px 9px 7px 9px #aaa5a5;
+}
+
+.text2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 30em;
+}
+
+.text2 h2 {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 35em;
+}
+
+.btn1 {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  margin-left: 38em;
+  font-weight: bold;
+  font-size: 30px;
+  border-color: black;
+  color: black;
+  background-color: white;
+  padding: 14px 40px;
+}
+
+.button3:hover {
+  background-color: #8d8c8c;
+}
+
+.row1 {
+  margin-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: right;
+  margin-right: 60px;
+  width: 30%;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.row2 {
+  margin-top: 20px;
+  float: left;
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: grey;
+  width: 30%;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#main-nav1 a {
+  margin-right: 60px;
+  font-size: 25px;
+  color: grey;
+  background: white;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-transition: background  1s;
+  transition: background  1s;
+}
+
+#main-nav1 a:hover {
+  background: #e6e2e2;
+  opacity: 0.3;
+  -webkit-transition-delay: 0.5 s;
+          transition-delay: 0.5 s;
+}
+
+.photo3 {
+  margin-left: 10em;
+  width: 30px;
+  height: 40px;
+}
+
+#main-nav1 ul {
+  font-size: 40px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-left: 10em;
+}
+
+#main-nav1 li {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 12em;
+}
+
+.text3 h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 3em;
+  font-size: 35px;
+  color: #646161;
+}
+
+.mainicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40em;
+  margin-top: 5px;
+  color: gray;
+  font-size: 25px;
+}
+
+.photo4 {
+  margin-left: 61em;
+  margin-top: 120px;
+}
+
+.icon1:hover {
+  background-color: #d6cdcd;
+  border-radius: 35%;
+}
+/*# sourceMappingURL=style.css.map */
